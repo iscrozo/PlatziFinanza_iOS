@@ -28,6 +28,9 @@
 		7674E9FD268EC8B600DE821B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7674E9FC268EC8B600DE821B /* Main.storyboard */; };
 		7674EA00268EC8E900DE821B /* Add.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7674E9FF268EC8E900DE821B /* Add.storyboard */; };
 		7674EA03268EC94100DE821B /* Transaction.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7674EA02268EC94100DE821B /* Transaction.storyboard */; };
+		76A2F09426AA5D2800B2E877 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A2F09326AA5D2800B2E877 /* TabBarViewController.swift */; };
+		76A2F09626AA610C00B2E877 /* TransactionsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76A2F09526AA610C00B2E877 /* TransactionsCell.xib */; };
+		76A2F09826AA628600B2E877 /* BudgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A2F09726AA628600B2E877 /* BudgetViewController.swift */; };
 		76C7C5EF26927BAA003F5826 /* OnBoardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C7C5EE26927BAA003F5826 /* OnBoardingContainerViewController.swift */; };
 		76C7C5F126927CAD003F5826 /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C7C5F026927CAD003F5826 /* OnBoardingViewController.swift */; };
 		76C7C5F326929554003F5826 /* OnBoardingStepsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C7C5F226929554003F5826 /* OnBoardingStepsViewController.swift */; };
@@ -56,6 +59,9 @@
 		7674E9FC268EC8B600DE821B /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		7674E9FF268EC8E900DE821B /* Add.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Add.storyboard; path = PlatziFinanzas/Application/Main/Add/Add.storyboard; sourceTree = SOURCE_ROOT; };
 		7674EA02268EC94100DE821B /* Transaction.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Transaction.storyboard; path = PlatziFinanzas/Application/Main/Transaction/Transaction.storyboard; sourceTree = SOURCE_ROOT; };
+		76A2F09326AA5D2800B2E877 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		76A2F09526AA610C00B2E877 /* TransactionsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionsCell.xib; sourceTree = "<group>"; };
+		76A2F09726AA628600B2E877 /* BudgetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetViewController.swift; sourceTree = "<group>"; };
 		76C7C5EE26927BAA003F5826 /* OnBoardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingContainerViewController.swift; sourceTree = "<group>"; };
 		76C7C5F026927CAD003F5826 /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
 		76C7C5F226929554003F5826 /* OnBoardingStepsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingStepsViewController.swift; sourceTree = "<group>"; };
@@ -201,6 +207,7 @@
 			isa = PBXGroup;
 			children = (
 				764F6763268F507400B6443A /* Budget.storyboard */,
+				76A2F09726AA628600B2E877 /* BudgetViewController.swift */,
 			);
 			path = Budget;
 			sourceTree = "<group>";
@@ -241,6 +248,7 @@
 			isa = PBXGroup;
 			children = (
 				7674E9FC268EC8B600DE821B /* Main.storyboard */,
+				76A2F09326AA5D2800B2E877 /* TabBarViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -259,6 +267,7 @@
 				7674EA02268EC94100DE821B /* Transaction.storyboard */,
 				7622AEFC26A7769E001C8377 /* TransactionsViewController.swift */,
 				7622AEFE26A782A9001C8377 /* EmptyState.xib */,
+				76A2F09526AA610C00B2E877 /* TransactionsCell.xib */,
 			);
 			path = Transaction;
 			sourceTree = "<group>";
@@ -346,6 +355,7 @@
 				764F676C268F58BD00B6443A /* SignIn.storyboard in Resources */,
 				764F676F268FC79B00B6443A /* Colors.xcassets in Resources */,
 				7622AEFF26A782A9001C8377 /* EmptyState.xib in Resources */,
+				76A2F09626AA610C00B2E877 /* TransactionsCell.xib in Resources */,
 				7674EA00268EC8E900DE821B /* Add.storyboard in Resources */,
 				762F2204268AAA7000B0CF29 /* Assets.xcassets in Resources */,
 				764F6767268F50D000B6443A /* Statistics.storyboard in Resources */,
@@ -369,9 +379,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76A2F09426AA5D2800B2E877 /* TabBarViewController.swift in Sources */,
 				7622AEFD26A7769E001C8377 /* TransactionsViewController.swift in Sources */,
 				764F677226900E9500B6443A /* Shadow.swift in Sources */,
 				76C7C5F326929554003F5826 /* OnBoardingStepsViewController.swift in Sources */,
+				76A2F09826AA628600B2E877 /* BudgetViewController.swift in Sources */,
 				762F21FB268AAA6900B0CF29 /* AppDelegate.swift in Sources */,
 				762F21FD268AAA6900B0CF29 /* SceneDelegate.swift in Sources */,
 				76C7C5EF26927BAA003F5826 /* OnBoardingContainerViewController.swift in Sources */,
